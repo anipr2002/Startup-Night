@@ -32,7 +32,7 @@ export default function InventoryItemCard({
     >
       {/* Background fill based on weight */}
       <div
-        className="absolute bottom-0 left-0 w-full bg-primary/10 transition-all duration-300 ease-in-out"
+        className="absolute bottom-0 left-0 w-full bg-[#D3C5B4]/15 transition-all duration-300 ease-in-out"
         style={{ height: `${percentage}%` }}
       />
 

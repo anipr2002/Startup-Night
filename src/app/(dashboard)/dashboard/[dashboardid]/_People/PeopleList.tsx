@@ -26,14 +26,14 @@ const PeopleList = ({
         <AvatarFallback>{username.charAt(0)}</AvatarFallback>
       </Avatar>
       <div
-        className={cn("flex flex-col flex-1", currentUser && "text-[#f56565]")}
+        className={cn("flex flex-col flex-1", currentUser && "text-[#6C5549]")}
       >
         <div className="flex items-center justify-start gap-x-4">
           <div className="text-sm font-medium">{username}</div>
           {admin && (
             <Badge
               variant="outline"
-              className="bg-[#f56565] text-white text-xs"
+              className="bg-[#6C5549] text-white text-xs"
             >
               Admin
             </Badge>

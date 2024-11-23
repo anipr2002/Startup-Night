@@ -89,7 +89,7 @@ const MainDashboard = () => {
         onChange={(value) => setOrderType(value.toString())}
         options={orderTypes}
         className="flex rounded-md bg-muted p-2 my-4"
-        highlighterClassName="bg-red-400 dark:bg-primary rounded-sm"
+        highlighterClassName="bg-[#6c5549] dark:bg-primary rounded-sm"
         radioClassName={cn(
           "whitespace-nowrap relative mx-2 flex w-full focus:outline-none h-9 cursor-pointer items-center justify-center rounded-sm px-3.5 text-sm font-medium transition-colors data-[checked]:text-primary-foreground"
         )}

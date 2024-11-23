@@ -28,7 +28,7 @@ export default async function Home() {
         <MaxWidthWrapper key={user?.id}>
           <div className="flex flex-col items-center justify-center w-full h-screen">
             {/*  */}
-            <div className="border-t-2 border-b-2 border-transparent w-screen bg-[#f56565] text-white text-center font-animal absolute top-2">
+            <div className="border-t-2 border-b-2 border-transparent w-screen bg-[#D3C5B4] text-white text-center font-animal absolute top-2">
               <Marquee pauseOnHover className="[--duration:20s]" repeat={10}>
                 <div className="mx-10">Under development</div>
               </Marquee>
@@ -38,7 +38,7 @@ export default async function Home() {
               {" "}
               Made with ❤️ by{" "}
               <span>
-                <Link href="https://anirudhpr.me" className="text-[#f56565]">
+                <Link href="https://anirudhpr.me" className="text-[#6C5549]">
                   Anirudh
                 </Link>
               </span>
@@ -47,12 +47,12 @@ export default async function Home() {
               Welcome to{" "}
               <div className="flex items-center gap-2">
                 <Image
-                  src="/logo.svg"
+                  src="/logodark.svg"
                   alt="PantryPal Logo"
                   width={50}
                   height={50}
                 />
-                <span className="text-[#f56565] text-6xl font-bold">
+                <span className="text-[#D3C5B4] text-6xl font-bold">
                   PantryPal
                 </span>
               </div>
@@ -76,7 +76,7 @@ export default async function Home() {
 
                 <SignUpButton>
                   <Button
-                    className={cn("w-full bg-[#f56565] text-white")}
+                    className={cn("w-full bg-[#6C5549] text-white")}
                     // variant={"outline"}
                     // onClick={createUser}
                   >

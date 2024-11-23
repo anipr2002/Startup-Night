@@ -40,7 +40,7 @@ export default function SignInPage() {
                     <CardHeader>
                       <CardTitle>
                         Sign in to{" "}
-                        <span className="text-[#f56565] font-boldl">
+                        <span className="text-[#6C5549] font-boldl">
                           PantryPal
                         </span>
                       </CardTitle>
